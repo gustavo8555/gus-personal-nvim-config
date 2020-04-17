@@ -8,6 +8,9 @@ Plug 'dracula/vim', { 'as': 'dracula' }
 " Better Visual Guide
 Plug 'Yggdroot/indentLine'
 
+" python
+Plug 'klen/python-mode'
+
 call plug#end()
 
 let g:python3_host_prog = '/usr/bin/python'
@@ -29,6 +32,6 @@ colorscheme dracula
 set inccommand=split
 
 let mapleader="\<space>"
-nnoremap <leader>vc :vsplit ~/.config/nvim/init.vim<cr>
+nnoremap <leader>evc :vsplit ~/.config/nvim/init.vim<cr>
 nnoremap <leader>rvc :source ~/.config/nvim/init.vim<cr>
 
